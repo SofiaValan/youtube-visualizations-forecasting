@@ -1,4 +1,4 @@
-# Airbnb Madrid Price Prediction
+# YouTube & Google Ads Analysis + Prediction
 
 ## Introduction
 
