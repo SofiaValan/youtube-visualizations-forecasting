@@ -26,7 +26,7 @@ With this project, I want to achieve other secondary goals:
 * Performing an Exploratory Data Analysis to understand better the data and discover new trends that are difficult to see in the YouTube Analytics platform.
 * Determinating if stopping the campaigns in Google Ads affects in any negative or positive way to the organic growth of the channel.
 
-### Steps Involved on This Project
+## Steps Involved on This Project
 
 The steps I will follow to develop this project will be:
 
@@ -38,3 +38,7 @@ The steps I will follow to develop this project will be:
 * Perform an exploratory data analysis with Python
 * Develop different time series models to predict the subscribers and the visualization hours over time
 * Evaluate the results & set up improvements
+
+### Step 1: Connecting to the YouTube API
+
+As I said, the first step on this project is connecting to the YouTube API to gather the basic video metrics on a daily basis. In order to do this, I created a new project inside Google Cloud Platform.
