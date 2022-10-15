@@ -1,6 +1,6 @@
 # YouTube Subscribers & Visualization Hours Prediction
 
-## Introduction
+## The Context
 
 In this project, I will analyze the data from a YouTube channel focused on Chemistry classes for all levels. This YouTube channel has been actived since March 2021, publishing more than 120 videos until the current date. You can check the YouTube channel [here](https://www.youtube.com/channel/UCzQTrA_c1BgRNLewVyt2UFw).
 
@@ -8,11 +8,11 @@ The data sources I will include in this project are the following ones:
 
 * Video statistics with a daily granularity from YouTube: subscribers, views, likes/dislikes, comments, visualization hours...
 
-* Other interesting metrics based on the country, for example.
+* Other interesting metrics based on the country or the subscription origin, for example.
 
 * Google Ads data, available only for the videos that were part of the paid campaigns. This data will be displayed per day and per video. Some of the metrics will be: impressions, clicks, CTR, CPV...
 
-## Goals
+## The Goals
 
 The main question I want to answer with this project is determinating when the channel will be ready for monetization. In order to monetizate a channel on YouTube, you need two requirement:
 
@@ -26,9 +26,15 @@ With this project, I want to achieve other secondary goals:
 * Performing an Exploratory Data Analysis to understand better the data and discover new trends that are difficult to see in the YouTube Analytics platform.
 * Determinating if stopping the campaigns in Google Ads affects in any negative or positive way to the organic growth of the channel.
 
-### Steps involved on this project
+### Steps Involved on This Project
 
 The steps I will follow to develop this project will be:
 
-
-
+* Connect to the YouTube & Google Ads API to get the data with Python
+* Do some basic transformations on the data before pushing it to the data warehouse
+* Upload the cleaned tables to Google BigQuery (GBQ) from the Python script
+* Automate this process, so I can have the most recent data updated on GBQ
+* Create some views with SQL in GBQ depending on different granularities
+* Perform an exploratory data analysis with Python
+* Develop different time series models to predict the subscribers and the visualization hours over time
+* Evaluate the results & set up improvements
