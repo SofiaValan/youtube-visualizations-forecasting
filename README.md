@@ -41,4 +41,19 @@ The steps I will follow to develop this project will be:
 
 ### Step 1: Connecting to the YouTube API
 
-As I said, the first step on this project is connecting to the YouTube API to gather the basic video metrics on a daily basis. In order to do this, I created a new project inside Google Cloud Platform.
+As I said, the first step on this project is connecting to the YouTube API to gather the basic video metrics on a daily basis. In order to do this, I created a new project inside Google Cloud Platform, extract the data from the different YouTube APIs and then push it in to Google BigQuery.
+
+The main metrics I have extracted are:
+
+* Basic metrics: views, likes , comments, dislikes, shares, subscribersLost, subscribersGained.
+* Video performance metrics: estimatedMinutesWatched, averageViewDuration, averageViewPercentage. 
+* Annotations performance: annotationImpressions, annotationClicks, annotationClickThroughRate.
+* Card performance: cardImpressions, cardClicks, cardClickRate.
+
+You can find the specific definition of all those metrics [in the YouTube API website](https://developers.google.com/youtube/analytics/metrics).
+
+The tables I have extracted from this API are:
+
+* Daily metrics by video
+* Daily metrics by country
+* Daily metrics by country & video. This is only available for those videos that were added in to paid campaigns in Google Ads.
