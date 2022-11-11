@@ -57,3 +57,13 @@ The tables I have extracted from this API are:
 * Daily metrics by video
 * Daily metrics by country
 * Daily metrics by country & video. This is only available for those videos that were added in to paid campaigns in Google Ads.
+
+### Step 2: Connecting to the Google Ads API
+
+The second step is to extract the data from a second data source: Google Ads. As some videos were added to branding campaigns to get more visibility, this could have an impact over the number of subscribers and visualization hours.
+
+The main metrics that I have extracted are:
+
+* Basic metrics: impressions, clicks, CTR, cost, CPV (cost per visualization)
+* Interaction metrics: likes gained, shares gained, subscribers gained, visualization hours gained, engagement rate.
+* Performance metrics: video quantile reproduction (25%, 50%, 75%, 100%)
