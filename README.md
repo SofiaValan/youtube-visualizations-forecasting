@@ -78,4 +78,5 @@ Some of the questions selected are:
 * Based on our target variables, what are the videos that performed the best? What characteristics have those videos?
 * Which periods of time bring us more subscribers and visualization hours? Yearly, monthly, weekly.
 * How Google Ads helped to accomplish our target goals?
+* Did the videos promoted had better performance based on the target variables?
 * After the paid campaigns were stopped, did the performance of the videos get worse? What happened after three months?
