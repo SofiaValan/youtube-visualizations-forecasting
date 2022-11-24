@@ -67,3 +67,15 @@ The main metrics that I have extracted are:
 * Basic metrics: impressions, clicks, CTR, cost, CPV (cost per visualization)
 * Interaction metrics: likes gained, shares gained, subscribers gained, visualization hours gained, engagement rate.
 * Performance metrics: video quantile reproduction (25%, 50%, 75%, 100%)
+
+### Step 3: The Exploratory Data Analysis
+
+In this step, I am going to answer some questions that can be useful to understand better the data before running any Machine Learning model.
+
+Some of the questions selected are:
+
+* How our target audiences behave? Is there any correlation between them?
+* Based on our target variables, what are the videos that performed the best? What characteristics have those videos?
+* Which periods of time bring us more subscribers and visualization hours? Yearly, monthly, weekly.
+* How Google Ads helped to accomplish our target goals?
+* After the paid campaigns were stopped, did the performance of the videos get worse? What happened after three months?
