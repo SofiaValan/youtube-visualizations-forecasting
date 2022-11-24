@@ -70,13 +70,14 @@ The main metrics that I have extracted are:
 
 ### Step 3: The Exploratory Data Analysis
 
-In this step, I am going to answer some questions that can be useful to understand better the data before running any Machine Learning model.
+In this step, I will answer some questions that can be useful to understand better the data before running any Machine Learning model.
 
 Some of the questions selected are:
 
-* How our target audiences behave? Is there any correlation between them?
-* Based on our target variables, what are the videos that performed the best? What characteristics have those videos?
-* Which periods of time bring us more subscribers and visualization hours? Yearly, monthly, weekly.
+* How do our target audiences behave? Is there any correlation between them?
+* Based on our target variables, what are the videos that performed the best? What characteristics have those videos had?
+* Which periods bring us more subscribers and visualization hours? Yearly, monthly, weekly.
+* What are the countries that are providing more subscribers and visualization hours?
 * How Google Ads helped to accomplish our target goals?
-* Did the videos promoted had better performance based on the target variables?
-* After the paid campaigns were stopped, did the performance of the videos get worse? What happened after three months?
+* Did the videos promoted had better performance based on the target variables? Are there differences between countries?
+* After the paid campaigns stopped, did the performance of the videos get worse? What happened after three months?
