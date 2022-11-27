@@ -74,7 +74,7 @@ In this step, I will answer some questions that can be useful to understand bett
 
 Some of the questions selected are:
 
-* How do our target audiences behave? Is there any correlation between them?
+* How do our target variables behave? Is there any correlation between them?
 * Based on our target variables, what are the videos that performed the best? What characteristics have those videos had?
 * Which periods bring us more subscribers and visualization hours? Yearly, monthly, weekly.
 * What are the countries that are providing more subscribers and visualization hours?
