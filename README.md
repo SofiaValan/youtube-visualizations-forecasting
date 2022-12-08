@@ -81,3 +81,5 @@ Some of the questions selected are:
 * How Google Ads helped to accomplish our target goals?
 * Did the videos promoted had better performance based on the target variables? Are there differences between countries?
 * After the paid campaigns stopped, did the performance of the videos get worse? What happened after three months?
+
+One of the challenges that I had to face was getting the organic hours watched. In order to get this metric, I needed to create a new API request with the traffic source. That allowed me to exclude the traffic source 'Advertising' to get the number of organic hours watched.
