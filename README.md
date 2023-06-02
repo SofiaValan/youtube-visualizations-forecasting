@@ -28,7 +28,7 @@ The steps I will follow to develop this project will be:
 * Connect to the YouTube & Google Ads API to get the data with Python
 * Do some basic transformations on the data before pushing it to the data warehouse
 * Upload the cleaned tables to Google BigQuery (GBQ) from the Python script
-* Automate this process, so I can have the most recent data updated on GBQ
+* Automate this process in Windows, so I can have the most recent data updated on GBQ
 * Create some views with SQL in GBQ depending on different granularities
 * Perform an exploratory data analysis with Python
 * Develop different time series models to predict the subscribers and the visualization hours over time
@@ -74,7 +74,7 @@ Some of the questions selected are:
 * Which periods bring us more subscribers and visualization hours? Yearly, monthly, weekly.
 * What are the countries that are providing more subscribers and visualization hours?
 * How Google Ads helped to accomplish our target goals?
-* Did the videos promoted had better performance based on the target variables? Are there differences between countries?
-* After the paid campaigns stopped, did the performance of the videos get worse? What happened after three months?
+* Did the videos promoted had better performance based on the target variable? Are there differences between countries?
+* After the paid campaigns stopped, did the performance of the videos get worse? What happened after three months? And one year?
 
 One of the challenges that I had to face was getting the organic hours watched. In order to get this metric, I needed to create a new API request with the traffic source. That allowed me to exclude the traffic source 'Advertising' to get the number of organic hours watched.
