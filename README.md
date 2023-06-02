@@ -1,4 +1,4 @@
-# YouTube Subscribers & Visualization Hours Prediction
+# YouTube Visualization Prediction
 
 ## The Context
 
@@ -14,19 +14,14 @@ The data sources I will include in this project are the following ones:
 
 ## The Goals
 
-The main question I want to answer with this project is determinating when the channel will be ready for monetization. In order to monetizate a channel on YouTube, you need two requirement:
-
-* Gain 1000 subscribers 
-* Get at least 4,000 organic visualization hours in one year
-
-I will answer to this question creating a time series prediction based on statistics methodologies.
+The main question I want to answer with this project is forecasting the number of organic visualizations for the next months. With this forecasting, I will be able to understand if the organic visualizations are increasing over time, as the channel is having more authority and subscribers. I will answer this question by creating a time series prediction based on statistics methodologies.
 
 With this project, I want to achieve other secondary goals: 
 
 * Performing an Exploratory Data Analysis to understand better the data and discover new trends that are difficult to see in the YouTube Analytics platform.
-* Determinating if stopping the campaigns in Google Ads affects in any negative or positive way to the organic growth of the channel.
+* Determinating if stopping the campaigns in Google Ads affected the organic growth of the channel in any negative or positive way.
 
-## Steps Involved on This Project
+## Steps Involved in This Project
 
 The steps I will follow to develop this project will be:
 
